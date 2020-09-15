@@ -1,0 +1,24 @@
+.operation-mode {
+  margin-bottom: 10px;
+}
+
+.operation-area {
+  display: flex;
+}
+
+.main-div {
+  border: 1px solid gray;
+  background: #cccccc;
+}
+
+.operation-card {
+  margin-left: 20px;
+  height: 100%;
+  width: 400px;
+  line-height: 40px;
+}
+
+.button-style {
+  float: right;
+  margin-top: 20px;
+}

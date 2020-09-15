@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+// import './index.css';
+// import App from './App';
+// import DOME from './dome';
+import DOME from './dome002';
+// import Process from './zxy/process';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <DOME />
+    {/*<Process />*/}
   </React.StrictMode>,
   document.getElementById('root')
 );

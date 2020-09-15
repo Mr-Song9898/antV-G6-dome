@@ -1,0 +1,29 @@
+.body {
+    height: 800px;
+    border: 1px solid #ccc;
+    background: #Eff;
+    padding: 20px;
+}
+
+.g6-tooltip {
+    padding: 10px 6px;
+    color: #444;
+    background-color: rgba(255,255,255,0.9);
+    border: 1px solid #e2e2e2;
+    border-radius: 4px;
+}
+
+
+.configuration {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    border: 1px #000 solid;
+    height: 800px;
+    width: 400px;
+    z-index: 999;
+}
+
+#context {
+    border: 1px #ccc dashed;
+}
