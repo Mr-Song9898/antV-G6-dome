@@ -385,7 +385,7 @@ export default class DOME extends React.Component {
                 const currentEdge = e.item;
                 const graph = this.graph;
                 // 拖拽过程中，点击会点击到新增的边上
-                if (this.addingEdge && this.edge == currentEdge) {
+                if (this.addingEdge && this.edge === currentEdge) {
                     graph.removeItem(this.edge);
                     this.edge = null;
                     this.addingEdge = false;
